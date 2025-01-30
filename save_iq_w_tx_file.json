@@ -1,0 +1,27 @@
+[
+ {
+    "cmd": "save_iq_w_tx",
+    "sync": true,
+    "timeout": 30,
+
+    "nsamps": 8192,
+
+    "wotxrepeat": 0,
+    
+    "txrate": 250e4,
+    "txfreq": 3387e6,
+    "txgain": {"fixed": 27.0},
+    "txsamps": {"file": "/local/repository/shout/signal_library/meb-browning.iq"},
+    "txwait": 3,
+    "use_lo_offset": true,
+
+    "rxrate": 250e4,
+    "rxfreq": 3387e6,
+    "rxgain": {"fixed": 30.0},
+    "rxrepeat": 4,
+    "rxwait": {"min": 50, "max": 2000, "res": "ms"},
+
+    "txclients": ["cbrssdr1-meb-comp", "cbrssdr1-browning-comp"],
+    "rxclients": ["cbrssdr1-meb-comp", "cbrssdr1-browning-comp"]
+ }
+]
