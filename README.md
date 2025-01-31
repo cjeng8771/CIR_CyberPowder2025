@@ -33,9 +33,9 @@ Reach out with any questions while walking through the tutorial!
 | 1     | CBAND X310/Rooftop | MEB, Browning, [3] d430 | 3385-3390 MHz | TX: 27.0, RX: 30.0 | Emulab |
 | 2     | CBAND X310/Rooftop | USTAR, Hospital, [3] d430 | 3390-3395 MHz | TX: 27.0, RX: 30.0 | Emulab |
 | 3     | CBAND X310/Rooftop | BES, FM, [3] d430 | 3395-3400 MHz | TX: 27.0, RX: 30.0 | Emulab |
-| 4     | Dense Site NUC+B210/Dense Deployment | USTAR, Moran, [3] d430 | 3400-3405 MHz | TX: 85.0, RX: 70.0 | Emulab |
+| 4     | Dense Site NUC+B210/Dense Deployment | NC Mario, Moran, [3] d430 | 3400-3405 MHz | TX: 85.0, RX: 70.0 | Emulab |
 | 5     | Dense Site NUC+B210/Dense Deployment | EBC, Guest House, [3] d430 | 3415-3420 MHz | TX: 85.0, RX: 70.0 | Emulab |
-| 6     | Dense Site NUC+B210/Dense Deployment | NC Wasatch, NC Mario, [3] d430 | 3420-3425 MHz | TX: 85.0, RX: 70.0 | Emulab |
+| 6     | Dense Site NUC+B210/Dense Deployment | NC Wasatch, USTAR, [3] d430 | 3420-3425 MHz | TX: 85.0, RX: 70.0 | Emulab |
 
 ## References
 
