@@ -1,7 +1,7 @@
-# IH4: OTA Channel Impulse Response Measurement
-Channel Impulse Response Tutorial for CyberPowder2025 - 1/31/2025
+# OTA Channel Impulse Response Measurement
+Channel Impulse Response Tutorial - 1/31/2025
 
-In this in-class hands-on activity, you will
+In this hands-on activity, you will
 1. Create an IQ file from PN codes
 2. Use Shout to transmit and receive your IQ file between two nodes
 3. Cross-correlate the filtered received signal with your original PN code packet to observe the channel impulse response
@@ -15,18 +15,19 @@ A N-state PN code will have `2^N - 1` bits. The LFSR starts with an initial stat
 
 ## Instructions
 
-Follow the instructions and code outlined in the [IH4 OTA Channel Impulse Response CyberPowder2025 Google Colab](https://colab.research.google.com/drive/1qUp7MgBtZ0hp3xUQEjaLpNL7Er2nQ7RM?usp=sharing). This is a read-only notebook so you will need to save a copy to Drive to make edits. 
-  * If you prefer to use Jupyter Notebook, this repository includes a `IH4_OTA_Channel_Impulse_Response_CyberPowder2025.ipynb` file you can download to follow the instructions and code on your local machine rather than using Google Colab. You will not need to upload your files. Instead, make sure to download the python notebook file into a directory of choice that you'll use as the working directory during the tutorial.
+Follow the instructions and code outlined in the [OTA Channel Impulse Response Tutorial Google Colab](https://colab.research.google.com/drive/1QZAUbmQRLhNf4-C5YXoAXVReRZh-8tlL?usp=sharing). This is a read-only notebook so you will need to save a copy to Drive to make edits. 
+  * If you prefer to use Jupyter Notebook, this repository includes a `OTA_Channel_Impulse_Response_Tutorial.ipynb` file you can download to follow the instructions and code on your local machine rather than using Google Colab. You will not need to upload your files. Instead, make sure to download the python notebook file into a directory of choice that you'll use as the working directory during the tutorial.
 
 You will need to download `save_iq_w_tx_file.json` for use in this activity.
 
 Run through the code cells in the notebook sequentially. Sections that need you to complete part of the code or some other task will be marked with a 🛑 icon (code to be filled in will also have `### TODO ###` on the line to complete).
 
+You can either download and use the provided Shout data folder in this repository or walk through the tutorial's instructions to run an experiment with resources on POWDER and collect your own data. You can skip the instructions about running the Shout experiment if you choose to use the provided data.
+
 Below is the per-group information to reference for running your Shout experiments. Running the experiment will require multiple terminal windows in addition to having the code open. You can either have each person operate a different task or have a group representative share their screen while walking through the steps.
 
-*Turn In:* At the end of the notebook, you should have cross-correlation plots that show the channel impulse response for your experiment. Save the figures and add them to this [Google Docs](https://docs.google.com/document/d/1V2pEICyCiz0p0sV33NMLEAHHvUstUNarXrIf07RETuw/edit?usp=sharing) for your group. Fill in the requested parameters in the document as well. You can see the channel impulse responses that other teams received with their PN code packet and nodes.
+*Results:* At the end of the notebook, you should have cross-correlation plots that show the channel impulse response for your experiment. You can view other's results in this [Google Docs](https://docs.google.com/document/d/1V2pEICyCiz0p0sV33NMLEAHHvUstUNarXrIf07RETuw/edit?usp=sharing) to compare your channel impulse response to those with varying nodes and transmitted PN code packets.
 
-Reach out with any questions while walking through the tutorial!
 
 | Group | Radio/Site Type | Nodes | Frequency Range | TX/RX Gains | Cluster |
 | ----- | --------------- | ----- | --------------- | ----------- | ------- |
